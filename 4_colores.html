@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="div_1" style="width: 200px; height: 200px; "></div>
+<div id="div_2" style="width: 200px; height: 200px; " ></div>
+<div id="div_3" style="width: 200px; height: 200px; "></div>
+<div id="div_4" style="width: 200px; height: 200px; "></div>
+
+
+<script>
+    var ele1 = document.querySelector('#div_1')
+    ele1.style.backgroundColor = 'blue'
+    addEventListener('click', ()=>{
+        ele1.style.backgroundColor = 'black'
+    })
+
+    var ele2 = document.querySelector('#div_2')
+    ele1.style.backgroundColor = 'red'
+    addEventListener('click', ()=>{
+        ele2.style.backgroundColor = 'black'
+    })
+
+    var ele3 = document.querySelector('#div_3')
+    ele1.style.backgroundColor = 'green'
+    addEventListener('click', ()=>{
+        ele3.style.backgroundColor = 'black'
+    })
+
+    var ele4 = document.querySelector('#div_4')
+    ele4.style.backgroundColor = 'aliceblue'
+    addEventListener('click', ()=>{
+        ele1.style.backgroundColor = 'black'
+    })
+
+
+</script>
+
+</body>
+</html>
